@@ -1,0 +1,25 @@
+{
+  "name": "xXxtraprincess-baptism",
+  "version": "1.0.0",
+  "description": "xXxtra.princess baptizes your IP address",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjcribbs/xXxtraprincess-baptism.git"
+  },
+  "author": "xXxtraprincess 4/4",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sjcribbs/xXxtraprincess-baptism/issues"
+  },
+  "homepage": "https://github.com/sjcribbs/xXxtraprincess-baptism#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "socket.io": "^2.1.1"
+  }
+}
