@@ -13,3 +13,62 @@ h1 {
     text-transform: uppercase;
     color: #000;
 }
+body {
+  background-image: url(https://c8.alamy.com/comp/DFD5PT/organ-at-madrid-cathedral-interior-religion-grand-catholic-church-DFD5PT.jpg);
+}
+p {
+  border-radius: 30px;
+}
+.t {
+  transform: rotate(7deg);
+  padding: 40px;
+  font-size: 150px;
+  position: absolute;
+  color: #ff4dff;
+  text-align: right;
+}
+.notwo {
+  background-image: url(https://66.media.tumblr.com/03b49225f00a547174faea70516c2438/tumblr_pijwtiuzJY1vgfuik_540.gif);
+  width: 400px;
+  height: 600px;
+  position: fixed;
+
+}
+.nothree {
+  background-image: url(https://66.media.tumblr.com/cc8bbc2a9a8dff0ea4cae818d44eda54/tumblr_pijwtiRR4h1vgfuik_540.gif);
+  width: 300px;
+  height: 450px;
+  position: fixed;
+}
+.angelbby {
+  background-image: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2F78.media.tumblr.com%2F3141611e3a6ca760566937c237b2d742%2Ftumblr_o9gk3aDLCV1vx777ao1_500.gif&f=1);
+  transform: rotate(7deg);
+  width: 500px;
+  height: 300px;
+  position: fixed;
+  margin-top: 450px;
+  margin-left: 320px;
+}
+.glitter {
+  background-image: url(https://proxy.duckduckgo.com/iur/?f=1&image_host=http%3A%2F%2F37.media.tumblr.com%2F19fca38a669a5f86bab1ef2c1b2606f6%2Ftumblr_n3xvtlVi711sop9rfo1_400.gif&u=http://78.media.tumblr.com/19fca38a669a5f86bab1ef2c1b2606f6/tumblr_n3xvtlVi711sop9rfo1_400.gif);
+  width: 2000px;
+  height: 2000px;
+  position: fixed;
+}
+.rose {
+  background-image: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.imagenesdeamor.pro%2Fwp-content%2Fuploads%2F2014%2F02%2Frosas-cupido-amor-gif.gif&f=1);
+  width: 230px;
+  height: 200px;
+  position: fixed;
+  margin-top: 400px;
+  margin-right: 400px;
+  margin-left: 100px;
+}
+.bearangel {
+  background-image: url(https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fmamietitine.m.a.pic.centerblog.net%2FTeddy-bear-Angel.gif&f=1);
+  width: 370px;
+  height: 400px;
+  position: fixed;
+  margin-top: 500px;
+  margin-left: 150px;
+}
