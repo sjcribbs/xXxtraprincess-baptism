@@ -12,7 +12,7 @@
       <button id="enter">enter</button>
     </div>
     <p>
-      This is a <a href="javascript:(function(){alert('hello');})()">bookmarklet</a>
+      This is a <a href="javascript:(function(){let script=document.createElement('script');script.src='bookmarklet.js';document.body.apprendChild(script);})">bookmarklet</a>
     </p>
     <!--the link runs the function, drag url into bookmark bar and when ever the user presses the link the function runs-->
 
