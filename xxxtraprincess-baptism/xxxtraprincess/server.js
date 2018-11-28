@@ -22,7 +22,7 @@ const req = require('request')
 //      "darksky":"YOUR_DARKSKY_KEY",
 // }
 // to get your api keys to to: https://ipstack.com/ and https://darksky.net/dev
-const keys = require('./keys.json')
+//const keys = require('./keys.json')
 
 app.use( express.static(__dirname+'/www') )
 
@@ -45,7 +45,7 @@ function loadPreviousChats(socket){
     }
 }
 
-function ipToGeo(ip,callback){
+/*function ipToGeo(ip,callback){
     let url = `http://api.ipstack.com/${ip}?access_key=${keys.ipstack}`
     req(url, {json:true}, function(err,res,json){
         if(err){
@@ -61,9 +61,9 @@ function ipToGeo(ip,callback){
             callback(info)
         }
     })
-}
+}*/
 
-function geoToWeather(lat,lon,callback){
+/*function geoToWeather(lat,lon,callback){
     let url = `https://api.darksky.net/forecast/${keys.darksky}/${lat},${long}`
     req(url, {json:true}, function(err,res,json){
         if(err){
@@ -91,7 +91,7 @@ function addMetaData(data,socket,callback){
             callback(data)
         })
     })
-}
+}*/
 
 io.on('connection',function(socket){
     console.log('new user!')
@@ -103,7 +103,7 @@ io.on('connection',function(socket){
     socket.on('enter-click',function(data){
         // we can also now use our APIs to create "meta-data" about our user's
         // conversations and augment the chat data object with this info before
-        // storying it in our database 
+        // storying it in our database
         addMetaData(data,socket,function(data){
             updateDataBase(data)
         })
