@@ -9,7 +9,7 @@ body {
 
 h1 {
     font-size: 24px;
-    font-family: sans-serif;
+    /*font-family: 'Orbitron', sans-serif;*/
     text-transform: uppercase;
     color: #000;
 }
@@ -27,9 +27,11 @@ p {
   transform: rotate(7deg);
   padding: 40px;
   font-size: 150px;
+  font-stretch: auto;
   position: absolute;
   color: #ff4dff;
   text-align: right;
+  font-family: 'Eater', cursive;
 }
 .notwo {
   background-image: url(https://66.media.tumblr.com/03b49225f00a547174faea70516c2438/tumblr_pijwtiuzJY1vgfuik_540.gif);
@@ -37,6 +39,7 @@ p {
   height: 600px;
   position: fixed;
   margin-bottom: 400px;
+  filter: invert(100%)
 
 }
 .nothree {
@@ -46,6 +49,7 @@ p {
   position: fixed;
   margin-left: 400px;
   margin-top: 200px;
+  filter: saturate(100%);
 }
 .angelbby {
   background-image: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2F78.media.tumblr.com%2F3141611e3a6ca760566937c237b2d742%2Ftumblr_o9gk3aDLCV1vx777ao1_500.gif&f=1);
