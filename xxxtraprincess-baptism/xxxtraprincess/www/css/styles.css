@@ -31,7 +31,8 @@ p {
   position: absolute;
   color: #ff4dff;
   text-align: right;
-  font-family: 'Eater', cursive;
+  /*font-family: 'Eater', cursive;*/
+  font-family: 'UnifrakturCook', cursive;
 }
 .notwo {
   background-image: url(https://66.media.tumblr.com/03b49225f00a547174faea70516c2438/tumblr_pijwtiuzJY1vgfuik_540.gif);
