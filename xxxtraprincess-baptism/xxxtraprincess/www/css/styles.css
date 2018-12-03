@@ -77,7 +77,7 @@ p {
   background-image: url(https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fmamietitine.m.a.pic.centerblog.net%2FTeddy-bear-Angel.gif&f=1);
   width: 370px;
   height: 400px;
-  position: fixed;
-  margin-top: 500px;
+  position: absolute;
+  margin-top: 700px;
   margin-left: 150px;
 }
