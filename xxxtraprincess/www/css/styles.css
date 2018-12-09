@@ -1,6 +1,3 @@
-body {
-    margin:0;
-}
 #gui {
     padding: 20px;
 }
@@ -11,6 +8,7 @@ h1 {
     color: #000;
 }
 body {
+  margin:0;
   background-image: url(https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2F3.bp.blogspot.com%2F-aS1df0Mt90w%2FUZ5csL3c-CI%2FAAAAAAAAAD4%2Fkh1xaV3e7CE%2Fs1600%2Fkatedra1c.jpg&f=1);
   /*https://www.thisiscolossal.com/wp-content/uploads/2017/11/church.gif (stone figures gif maybe a banner?)*/
   /*https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fmedia-us-west-motionelements.s3.amazonaws.com%2Fm%2Fs%2F10337%2F10327968%2Fa-0060.jpg&f=1 (background?)*/
@@ -80,5 +78,5 @@ p {
   margin-left: 150px;
 }
 .statue {
-  background-image: 
+  background-image:
 }
