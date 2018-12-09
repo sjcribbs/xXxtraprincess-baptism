@@ -1,5 +1,5 @@
 {
-  "name": "xXxtraprincess-baptism",
+  "name": "xxxtraprincess-baptism",
   "version": "1.0.0",
   "description": "xXxtra.princess baptizes your IP address",
   "main": "server.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sjcribbs/xXxtraprincess-baptism.git"
+    "url": "git+https://github.com/sjcribbs/xXxtraprincess-baptism.git"
   },
   "author": "xXxtraprincess 4/4",
   "license": "GPL-3.0",
