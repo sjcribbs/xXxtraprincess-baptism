@@ -16,6 +16,9 @@
       "matches": ["*://xxxtrabaptism.me"],
       "js": ["main.js"]
     }
-  ]
-
+  ],
+  "applications": {
+    "gecko": {
+      "id": "xxxtrabaptism@xxxtrabaptism.me"
+    }
 }
