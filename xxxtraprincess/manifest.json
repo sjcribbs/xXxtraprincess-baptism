@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "xxxtrabaptism",
+  "version": "1.0",
+
+  "description": "baptize your browser",
+
+  "icon": {
+    "48": "angelbb48.png",
+    "96": "angelbb96.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.*/*"],
+      "js": ["main.js"]
+    }
+  ]
+
+}
