@@ -6,8 +6,8 @@
   "description": "xXxtra.princess baptizes your browser",
 
   "icon": {
-    "48": "angelbb48.png",
-    "96": "angelbb96.png"
+    "48": "images/angelbb48.png",
+    "96": "images/angelbb96.png"
   },
  "repository": {
    "type": "git",
