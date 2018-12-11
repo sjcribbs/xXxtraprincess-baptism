@@ -10,7 +10,10 @@
     "48": "angelbb48.png",
     "96": "angelbb96.png"
   },
-
+ "repository": {
+   "type": "git",
+   
+ },
   "content_scripts": [
     {
       "matches": ["http://xxxtrabaptism.me/"],
