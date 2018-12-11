@@ -21,9 +21,5 @@
     "express": "^4.16.4",
     "request": "^2.88.0",
     "socket.io": "^2.1.1"
-  },
-  "icon": {
-    "48": "angelbb48.png",
-    "96": "angelbb96.png"
   }
 }
