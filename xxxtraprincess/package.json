@@ -1,11 +1,11 @@
 {
   "name": "xxxtraprincess-baptism",
   "version": "1.0.0",
-  "description": "xXxtra.princess baptizes your IP address",
-  "main": "server.js",
+  "description": "xXxtra.princess baptizes your browser",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node main.js"
   },
   "repository": {
     "type": "git",
