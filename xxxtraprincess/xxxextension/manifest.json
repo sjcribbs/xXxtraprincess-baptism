@@ -3,7 +3,7 @@
   "manifest_version": 1,
   "name": "xxxtraprincess-baptism",
   "version": "1.0",
-
+  "main": "main.js",
   "description": "xXxtra.princess baptizes your browser",
 
   "icon": {
