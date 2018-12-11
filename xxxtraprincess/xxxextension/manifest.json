@@ -13,7 +13,7 @@
 
   "content_scripts": [
     {
-      "matches": ["*://xxxtrabaptism.me"],
+      "matches": ["http://xxxtrabaptism.me/"],
       "js": ["main.js"]
     }
   ],
