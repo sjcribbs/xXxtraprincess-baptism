@@ -1,38 +1,21 @@
 {
-  "manifest_version": 1,
-  "name": "xxxtraprincess-baptism",
+
+  "manifest_version": 2,
+  "name": "xXxtra.princess Baptism",
   "version": "1.0",
-  "main": "main.js",
+
   "description": "xXxtra.princess baptizes your browser",
 
-  "icon": {
+  "icons": {
     "48": "images/angelbb48.png",
     "96": "images/angelbb96.png"
   },
- "repository": {
-   "type": "git",
-   "url": "git+https://github.com/sjcribbs/xXxtraprincess-baptism.git"
- },
-  "author": "xXxtraprincess 4/4",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/sjcribbs/xXxtraprincess-baptism/issues"
-  },
-  "homepage": "https://github.com/sjcribbs/xXxtraprincess-baptism#readme",
-  "dependencies": {
-    "express": "^4.16.4",
-    "request": "^2.88.0",
-    "socket.io": "^2.1.1"
-  },
+
   "content_scripts": [
     {
-      "matches": ["http://xxxtrabaptism.me/"],
+      "matches": ["*://xxxtrabaptism.me/*"],
       "js": ["main.js"]
     }
-  ],
-  "applications": {
-    "gecko": {
-      "id": "xxxtrabaptism@xxxtrabaptism.me"
-    }
-  }
+  ]
+
 }
